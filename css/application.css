@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'CookieFont';
+    src: url('fonts/cookie-font.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'BodyFont';
+    src: url('fonts/body-font.woff2') format('woff2');
+}
+
+body {
+    font-family: 'BodyFont', sans-serif;
+    background-color: #f8e8c8;
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: 'CookieFont', cursive;
+    color: #c76b30;
+}
+
+p {
+    font-size: 18px;
+    color: #5a3e1b;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid #c76b30;
+    padding: 10px;
+    background-color: #fff;
+}
