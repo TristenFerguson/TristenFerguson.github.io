@@ -1,1 +1,74 @@
+/* Load custom fonts */
+@font-face {
+    font-family: 'CookieFont';
+    src: url('fonts/cookie-font.woff2') format('woff2');
+}
 
+@font-face {
+    font-family: 'BodyFont';
+    src: url('fonts/body-font.woff2') format('woff2');
+}
+
+/* Apply background to every page */
+body {
+    font-family: 'BodyFont', sans-serif;
+    background-color: #f8e8c8; /* Custom color using hex */
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Style for main headings */
+h1 {
+    font-family: 'CookieFont', cursive;
+    color: #c76b30;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Style for subheadings */
+h2 {
+    font-family: 'CookieFont', cursive;
+    color: #c76b30;
+}
+
+/* Paragraph text */
+p {
+    font-size: 18px;
+    color: #5a3e1b;
+}
+
+/* Image styles */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    opacity: 0.95;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.2));
+}
+
+/* Table styles */
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid #c76b30;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+/* Optional enhancement for better interaction */
+tr:hover {
+    background-color: #ffeccc;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    table {
+        width: 90%;
+    }
+}
