@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dave Allen's Resume</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Importing Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -11,12 +14,31 @@
         <p>Phone: (123) 456-789</p>
     </header>
 
-    <section>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#contact">Contact Info</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contact Info Section -->
+    <section id="contact">
+        <h2>Contact Info</h2>
+        <p>Email: <a href="mailto:dave@example.com">dave@example.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/daveallen">linkedin.com/in/daveallen</a></p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
         <h2>Education</h2>
         <p>College Undergrad</p>
     </section>
 
-    <section>
+    <!-- Experience Section -->
+    <section id="experience">
         <h2>Experience</h2>
         <ul>
             <li>Worked at Burger King</li>
@@ -24,7 +46,8 @@
         </ul>
     </section>
 
-    <section>
+    <!-- Skills Section -->
+    <section id="skills">
         <h2>Skills</h2>
         <ul>
             <li>Coding</li>
@@ -32,5 +55,12 @@
             <li>Burger Making Skills</li>
         </ul>
     </section>
+
+    <!-- Profile Image -->
+    <section id="profile-image">
+        <h2>Profile</h2>
+        <img src="profile.jpg" alt="Dave Allen" width="200">
+    </section>
+
 </body>
 </html>
