@@ -5,6 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skills - My Resume</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #333;
+            padding: 1rem 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            margin: 0 1rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            text-align: center;
+            padding: 2rem;
+        }
+
+        h1, h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 1.1rem;
+        }
+
+        #skills ul {
+            list-style: none;
+            padding-left: 0;
+            font-size: 1.2rem;
+        }
+
+        #skills li {
+            margin: 0.5rem 0;
+        }
+
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav li {
+                margin: 0.5rem 0;
+            }
+
+            h1, h2 {
+                font-size: 1.5rem;
+            }
+
+            p, #skills ul {
+                font-size: 1rem;
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
