@@ -5,6 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - My Resume</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 1rem;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #333;
+            padding: 1rem 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav li {
+            margin: 0 1rem;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 1rem;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 1rem;
+            margin: 0.5rem 0;
+        }
+
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav li {
+                margin: 0.5rem 0;
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -21,14 +85,14 @@
     <main>
         <section id="contact">
             <h2>Contact Information</h2>
-            <!-- Profile Image -->
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqhdel5b9ClVPmRC8I9hDbpuxfI-NY1VroYA&s" alt="Profile Image" class="profile-img">
-            <p>Name: John Doe</p>
-            <p>Email: john.doe@example.com</p>
-            <p>Phone: (555) 123-4567</p>
-            <p>Location: 123 Main Street, Hometown, USA</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqhdel5b9ClVPmRC8I9hDbpuxfI-NY1VroYA&s" 
+                 alt="Profile Image" 
+                 class="profile-img">
+            <p><strong>Name:</strong> John Doe</p>
+            <p><strong>Email:</strong> john.doe@example.com</p>
+            <p><strong>Phone:</strong> (555) 123-4567</p>
+            <p><strong>Location:</strong> 123 Main Street, Hometown, USA</p>
         </section>
     </main>
 </body>
 </html>
-
